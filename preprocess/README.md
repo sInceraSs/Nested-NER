@@ -5,7 +5,7 @@ java -cp target/java-nlp-toolkit-0.1.3-SNAPSHOT.jar justhalf.nlp.reader.acereade
 ```
 #random split seed set as 31 in the jave preprocessing code
 
-the java-nlp-tookkit processed data format is:
+the java-nlp-toolkit processed data format is:
 ```
 Line1: "we have a major development to report tonight involving the crash of that singapore airlines 747 in taiwan this week ."
 
