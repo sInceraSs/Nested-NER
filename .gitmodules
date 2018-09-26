@@ -1,0 +1,3 @@
+[submodule "preprocess/java-nlp-toolkit"]
+	path = preprocess/java-nlp-toolkit
+	url = https://github.com/sInceraSs/java-nlp-toolkit.git
