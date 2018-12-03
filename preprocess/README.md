@@ -1,7 +1,7 @@
 # Preprocess
 After convert the java-nlp-toolkit into jar, using the following code as
 ```
-java -cp target/java-nlp-toolkit-0.1.3-SNAPSHOT.jar justhalf.nlp.reader.acereader.ACEReader -ace2004Dir ../../NLP/data/ACE2004/English -ace2005Dir ../../NLP/data/ACE2005/English -ace2004OutputDir ace2004_out -ace2005OutputDir ace2005_out -dataSplit 0.9,0.1,0.1 -printEntities -tokenizer stanford -posTagger stanford -splitter stanford -shuffle -seed 31
+java -cp target/java-nlp-toolkit-0.1.3-SNAPSHOT.jar justhalf.nlp.reader.acereader.ACEReader -ace2004Dir ../../NLP/data/ACE2004/English -ace2005Dir ../../NLP/data/ACE2005/English -ace2004OutputDir ace2004_out -ace2005OutputDir ace2005_out -dataSplit 0.8,0.1,0.1 -printEntities -tokenizer stanford -posTagger stanford -splitter stanford -shuffle -seed 31
 ```
 #random split seed set as 31 in the jave preprocessing code
 
