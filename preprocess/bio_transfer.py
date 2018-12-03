@@ -116,7 +116,7 @@ for text, label in dataset:
     for l in layers:
         labelList = ['O' for i in range(len(textSplit))]
         for elem in l:
-            label, textBeginIdx, textEndIdx = elem.split()[0], int(elem.split()[1]), int(elem.split()[2])
+            label, textBeginIdx, textEndIdx = elem.split()[0], int(elem.split()[1]), int(elem.split()[2]) - 1
             labelList[textBeginIdx] = "B-" + label
             if textEndIdx > textBeginIdx:
                 labelList[textBeginIdx+1: textEndIdx+1] = ["I-"+label] * (textEndIdx - textBeginIdx)
